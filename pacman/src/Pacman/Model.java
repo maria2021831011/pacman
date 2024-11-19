@@ -35,7 +35,7 @@ public class Model extends JPanel implements ActionListener {
     private int req_dx, req_dy;
 
     private final short levelData[] = {
-//game sajate proyojonio songkha
+//game sajate proyojonio number
             19, '#', 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 22,
             17, 16, 16, 16, 16, 24, 16, 16, 16, 16, '#', 16, 16, '#', 20,
             25, 24, 24, 24, 28, 0, 17, 16, 16, 16, 16, 16, 16, 16, 20,
