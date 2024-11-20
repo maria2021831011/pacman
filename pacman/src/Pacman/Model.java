@@ -161,16 +161,20 @@ public class Model extends JPanel implements ActionListener {
 
             ghostSpeed[i] = validSpeeds[random];
         }
+       //starting position
 
-        pacman_x = 7 * BLOCK_SIZE;  //start position
+        pacman_x = 7 * BLOCK_SIZE;  
         pacman_y = 11 * BLOCK_SIZE;
-        pacmand_x = 0;	//reset direction move
+       //reset direction move
+        pacmand_x = 0;	
         pacmand_y = 0;
-        req_dx = 0;		// reset direction controls
+       //reset direction controls
+        req_dx = 0;		
         req_dy = 0;
         dying = false;
     }
-    public void paintComponent(Graphics g) {//background painting
+   //background painting
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
         Graphics2D g2d = (Graphics2D) g;
